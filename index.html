@@ -1,33 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Index</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezana's Lounge</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to the Index Page</h1>
+    <header>
+        <h1>Ezana's Lounge</h1>
+    </header>
 
-    <!-- Previous content of index.html -->
-    <h2>Section One</h2>
-    <p>This is the first section in the index.html file.</p>
+    <div class="intro">
+        <img src="headshot.jpg" alt="My Headshot">
+        <h2>Ezana Gebru</h2>
+    </div>
 
-    <h2><a name="sectiontwo">Section Two</a></h2>
-    <p>This is the second section in the index.html file.</p>
+    <nav>
+        <a href="http://www.cs.gsu.edu/"> GSU Computer Science Department</a>
+        <a href="https://www.linkedin.com/in/ezana-gebru-a8437a270/">LinkedIn Profile</a>
+    </nav>
 
-    <!-- Links to Other Files -->
-    <p><a href="#sectiontwo">Section Two - ref to section two in index.html</a></p>
-    <p><a href="filetwo.html#sectiontwo">File Two: Section Two - ref to section two in filetwo.html</a></p>
-    <p><a href="filethree.html">File Three - ref to filethree.html</a></p>
+    <section>
+        <h3>Assignments and Projects</h3>
+        <table>
+            <tr class="row1">
+                <td><a href="https://codd.cs.gsu.edu/~egebru2/wp/CW/0/index.html">Classwork 0</a></td>
+            </tr>           
+            <tr class="row2">
+                <td><a href="https://codd.cs.gsu.edu/~egebru2/wp/HW/1/index.html">Homework 1</a></td>
+            </tr>
+        </table>
+    </section>
 
-    <!-- Graphics Section -->
-    <h2>Graphics Page</h2>
+    <section>
+        <h3>Hobbies and Interests</h3>
+        <ul>
+            <li><a href="https://usapickleball.org/">Pickleball</a></li>
+            <li><a href="https://www.usapowerlifting.com/">Powerlifting</a></li>
+            <li><a href="https://gastateparks.org/Hiking">Hiking</a></li>
+            
+        </ul>
+        <h4>Top Three Albums</h4>
+        <ul>
+            <li>Swimming</li>
+            <li>Take Care</li>
+            <li>Circles</li>
+        </ul>
+    </section>
 
-    <!-- Adding an image with a link, resizing, and alignment -->
-    <a href="index.html">
-        <img src="GOAT.jpg" alt="Mr.Mamba" width="960" height="540" border="5" align="right">
-    </a>
+    <section>
+        <h3>Education</h3>
+        <ul>
+            <li>Meadowcreek Highschool</li>
+            <li>Georgia State University</li>
+        </ul>
+        <h3>Top 3 Dream Jobs</h3>
+        <ol>
+            <li>Software Developer</li>
+            <li>Project Manager</li>
+            <li>Network Administrator</li>
+            <li><a href="Resume.pdf">My Resume</a></li>
+        </ol>
+    </section>
 
-    <!-- Paragraph about the image -->
-    <p>This is an example of how to use the <img> tag in HTML to include graphics on a web page. The image is aligned to the right, resized, and includes a border.</p>
+    <footer>
+        <div>
+            <q>I refuse to accept other people’s ideas of happiness for me. As if there’s a ‘one size fits all’ standard for happiness.</q>
+        </div>
+        <p>&copy; 2025 Ezana Gebru</p>
+    </footer>
 </body>
 </html>
